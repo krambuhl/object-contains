@@ -1,0 +1,19 @@
+{
+  "name": "object-contains",
+  "description": "Predicate function checking if haystack object contains needle object",
+  "homepage": "https://github.com/krambuhl/object-contains",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tape tests/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krambuhl/object-contains.git"
+  },
+  "devDependencies": {
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  }
+}
